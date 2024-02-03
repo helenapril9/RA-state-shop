@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+button,
+img {
+  display: block;
+}
+
+
+.task {
+  min-width: 400px;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.toolbar-button {
+  display: block;
+  margin: 20px 25px 20px auto;
+  font-size: 40px;
+  color: gray;
+}
+
+.cards-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin: 20px 50px;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-name {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-color {
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: auto 20px 17px 20px;
+}
+
+.card-price {
+  font-size: 18px;
+  color: #e00000;
+}
+
+.card-button {
+  padding: 0.5em 1em;
+  border: 1px solid #e00000;
+  border-radius: 2em;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e00000;
+}
+
+.list-view {
+  padding: 0 10px 0 20px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+  padding: 5px 15px 5px 5px;
+  background-color: #f5f5f5;
+}
+
+.item-image {
+  width: 100px;
+  height: 70px;
+  background-size: 100% auto;
+  background-position: left 0 top -25px;
+}
+
+.item-name {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.item-color {
+  font-size: 12px;
+}
+
+.item-price {
+  font-size: 18px;
+  color: #e00000;
+}
+
+.item-button {
+  padding: 0.5em 1em;
+  border: 1px solid #e00000;
+  border-radius: 2em;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e00000;
+}
+
+
+
+
+
+
+
